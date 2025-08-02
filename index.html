@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Personal portfolio of Shatulo Chikumbe, showcasing projects, skills, education, and contact details."/>
+  <title>Shatulo Chikumbe|Portfolio Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      line-height: 1.6;
+      background-color: #fdfafa;
+      color: #333;
+    }
+    header, footer {
+      background: #333;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #2c3e50;
+    }
+    ul {
+      list-style-type: square;
+    }
+    .project {
+      margin-bottom: 1rem;
+    }
+    .project a {
+      color: #0066cc;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin: 0.5rem 0;
+      box-sizing: border-box;
+    }
+    form button {
+      padding: 0.7rem 1.5rem;
+      background: #333;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .download-cv {
+      display: inline-block;
+      margin-top: 0.5rem;
+      padding: 0.5rem 1rem;
+      background: #007BFF;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Shatulo Chikumbe</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Programming</a>
+    <a href="#education">Education</a>
+    <a href="#interests">Interests</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>My name is Shatulo Chikumbe. I am passionate about computers and I want to be the next big tech expert in Zambia and Africa at Large.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Programming Languages</h2>
+    <ul>
+      <li>HTML5</li>
+      <li>Python</li>
+    </ul>
+  </section>
+
+  <section id="education">
+    <h2>Educational Background</h2>
+    <p>Bachelor of Arts in Demography with Sociology – The University of Zambia (2013–2017)</p>
+    <a href="Shatulo Chikumbe - CV.pdf" class="download-cv" download>Download My CV</a>
+  </section>
+
+  <section id="interests">
+    <h2>Professional Interests</h2>
+    <p>I am excited to learn about Python and Database Design and Programming with SQL. As a Monitoring and Evaluation and Research professional, data analysis with Python and managing databases are key to disseminating information to management, donors and stakeholders.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <strong>Portfolio Website</strong><br/>
+      <p>I have built a portfolio website using HTML to showcase the practical side of my lesson.</p>
+      <a href="https://github.com/shatulochikumbe/" target="_blank" rel="noopener">View on GitHub</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="mailto:your.email@example.com" method="POST" enctype="text/plain">
+      <label for="name">Name:</label><br/>
+      <input type="text" id="name" name="name" required><br/>
+
+      <label for="email">Email:</label><br/>
+      <input type="email" id="email" name="email" required><br/>
+
+      <label for="message">Message:</label><br/>
+      <textarea id="message" name="message" rows="5" required></textarea><br/>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 Shatulo Chikumbe. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
