@@ -1,4 +1,4 @@
-# Portfilio-Website
+# Portfolio-Website
 
 I have built a personal portfolio website that showcases my skills, background, and achievements. My portfolio includes:
 
